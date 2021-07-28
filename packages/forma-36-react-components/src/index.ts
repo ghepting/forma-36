@@ -71,9 +71,11 @@ export { Pill } from '@contentful/f36-pill';
 export type { PillProps } from '@contentful/f36-pill';
 export { Button, ButtonGroup } from '@contentful/f36-button';
 export type { ButtonProps, ButtonGroupProps } from '@contentful/f36-button';
-export * from './components/Accordion';
 export { Accordion, AccordionItem } from '@contentful/f36-accordion';
-// export * from './components/Accordion';
+export type {
+  AccordionProps,
+  AccordionItemProps,
+} from '@contentful/f36-accordion';
 export * from './components/Asset';
 export * from './components/Autocomplete';
 export * from './components/Card';
